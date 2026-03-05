@@ -1,11 +1,21 @@
 {
-    "projectId": "3312579727973105822",
-    "projectName": "Test Project",
+    "projectId": "1108991067281434298",
+    "projectName": "Jewelry Store with AI Side Panel",
     "screens": [
         {
-            "id": "334ac8be0c0b424bb7172a65affcbac9",
-            "title": "Markbridge Jewellers Luxury Homepage",
+            "id": "6c045709dcff4e00bd3a8ea9b16801fe",
+            "title": "Jewelry Store with AI Side Panel",
             "file": "public/index.html"
+        },
+        {
+            "id": "452a2ea8f2624a70b4ccd118ade18bc8",
+            "title": "Jewelry Store with AI Side Panel (variant)",
+            "file": "public/store.html"
+        },
+        {
+            "id": "8c4a2393e1684828abcdab5ac654a744",
+            "title": "Luxury Jewelry Store with AI Side Panel",
+            "file": "public/luxury.html"
         }
     ]
 }

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MarkBridge Jewellers | Luxury Collections</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;family=Material+Icons+Outlined&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#a8916d",
+                        "background-light": "#ffffff",
+                        "background-dark": "#121212",
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        sans: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "2px",
+                    },
+                },
+            },
+        };
+    </script>
+<style type="text/tailwindcss">
+        .glow-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 rgba(168, 145, 109, 0.7); }
+            50% { opacity: .8; transform: scale(1.05); box-shadow: 0 0 20px 5px rgba(168, 145, 109, 0.3); }
+        }
+        .ai-panel-transition {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans antialiased">
+<div class="bg-[#f3f0ff] dark:bg-[#1e1b4b] py-1.5 text-center border-b border-[#e5e0ff] dark:border-[#312e81]">
+<p class="text-[10px] tracking-[0.2em] uppercase font-medium text-[#6d5dfc] dark:text-[#a5b4fc]">
+            Testing for Frontend
+        </p>
+</div>
+<div class="bg-[#f8f5f2] dark:bg-slate-900 py-2 text-center text-[10px] tracking-widest uppercase text-slate-600 dark:text-slate-400 border-b border-slate-100 dark:border-slate-800 relative">
+        Celebrating 20 Years of Precious Beauty, Craftsmanship &amp; Trust
+        <button class="absolute right-4 top-1/2 -translate-y-1/2 material-icons-outlined text-sm">close</button>
+</div>
+<header class="sticky top-0 z-40 bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-slate-100 dark:border-slate-800">
+<div class="container mx-auto px-6 h-20 flex items-center justify-between">
+<nav class="hidden lg:flex space-x-8 text-[11px] tracking-widest uppercase font-medium text-slate-500 dark:text-slate-400">
+<a class="hover:text-primary transition-colors" href="#">Jewellery</a>
+<a class="hover:text-primary transition-colors" href="#">Our Brands</a>
+<a class="hover:text-primary transition-colors" href="#">About Us</a>
+<a class="hover:text-primary transition-colors" href="#">Contact Us</a>
+</nav>
+<div class="flex flex-col items-center">
+<div class="text-2xl font-display font-bold tracking-tighter uppercase dark:text-white">MarkBridge</div>
+<div class="text-[8px] tracking-[0.3em] uppercase -mt-1 dark:text-slate-400">Jewellers</div>
+</div>
+<div class="flex items-center space-x-6 text-slate-600 dark:text-slate-300">
+<button class="material-icons-outlined text-xl">search</button>
+<button class="material-icons-outlined text-xl">person_outline</button>
+<button class="material-icons-outlined text-xl relative">
+                    shopping_bag
+                    <span class="absolute -top-1 -right-1 bg-primary text-white text-[9px] w-4 h-4 rounded-full flex items-center justify-center">0</span>
+</button>
+</div>
+</div>
+</header>
+<div class="relative h-64 md:h-[400px] overflow-hidden">
+<img alt="Exquisite Jewelry Close-up" class="w-full h-full object-cover brightness-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDb7QYesqzlMcDZJJ_J-J4WArhh2EtxR-e82OaInusmNaP1wYnrkz_Dny6BebnyIzgfoW4wYktbY53ooxmvgpHq9RsKLr_Iad8Q6QE-QpOh4SNAtUdzvVXHAQBuEe6Qj3fyFRHr5Gt5b8GAyo9V1FeY9woNbkWejkIEyiP_d4Vloz28wQWiwE4pcUG_C_E95Os8QKIiL1uXXEi_5ta7AXl5d0h5cpO6_irwzVoClMeevBd8ApGVQD3K28dV5fINfLjWRvxQRdvNGOw"/>
+<div class="absolute inset-0 bg-black/10 flex items-center justify-center">
+<div class="bg-white/90 dark:bg-black/80 px-12 py-6 backdrop-blur-sm border border-white/20">
+<h1 class="text-3xl md:text-4xl font-display text-slate-800 dark:text-white tracking-wide">1000 +</h1>
+</div>
+</div>
+</div>
+<div class="container mx-auto px-6 py-6 border-b border-slate-100 dark:border-slate-800">
+<div class="flex justify-between items-center">
+<div class="flex items-center text-[10px] uppercase tracking-widest text-slate-400">
+<a href="#">Home</a>
+<span class="mx-2 font-light">/</span>
+<span class="text-slate-900 dark:text-slate-200">1000 +</span>
+</div>
+<div class="flex items-center space-x-6">
+<button class="flex items-center space-x-2 text-[11px] uppercase tracking-widest font-semibold">
+<span class="material-icons-outlined text-sm">tune</span>
+<span>Filter</span>
+</button>
+<div class="flex items-center space-x-3 text-slate-400">
+<button class="material-icons-outlined text-xl text-slate-900 dark:text-white">grid_view</button>
+<button class="material-icons-outlined text-xl">view_list</button>
+</div>
+</div>
+</div>
+</div>
+<main class="container mx-auto px-6 py-12">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<span class="absolute top-4 left-4 bg-slate-900 text-white text-[9px] uppercase tracking-widest px-2 py-1 z-10">Sold Out</span>
+<img alt="Engagement Ring" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzZYwUqm1B-_6q78cGI1PMZ0MxJ4D9DWPDXP-zIFD73_0uYNFd93KYlO1YUX9Uwfs0SEazY7m4CrXeFTZF4Ni9M-96f8HvHjhUC1iAW-TI8esvUVEPjavG-G4NWLBv5OETppgbK6zlB7i9lwmDAG5y6kiZcxfqc9fKeaexlUiO9e2QzkL1R3Z8H-FPJyMk4G8ej1wsw-BFfYat02TmOXvpgqGm5bzPyBWvYe5-HK_j2wFnJ1tLGc1eDDlfouL9STwaXeDEwCBactI"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">Princess Cut Square Cluster Engagement Ring</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">$13,999.00</p>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<img alt="Ruby Dress Ring" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjJKnI9c9R2xGPnlbHeuht2GhggKg9KgJRcc3D1vbhp7y-qHHfN6Q47V9x4ih1OQlby-MPnFd5EdYjBylQ3iWvGzQYqUfm1qTOan7tvy6-dCAKg9k8wPs_5fVwWC8buJKuFZjxAcgTJu8zZ6ute6CmJ0ngMzynzZOon-OvWMkne1utB9DuqvU84lwaEQ4ltYOA6xz0eC3qWA5RX4mfYmhc32B-crhWdSBKvJO_PLQhkt0-hbqy7QlP-X31-WmA1F19XZEyMTJRlZ8"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">18ct White Gold Natural Ruby &amp; Diamond Dress Ring</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">$13,250.00</p>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<span class="absolute top-4 left-4 bg-primary text-white text-[9px] uppercase tracking-widest px-2 py-1 z-10">Sale</span>
+<img alt="Tanzanite Ring" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKg3siVlb69mzHqVcH4i1xSoj_NCVXU166Y2EnbzGO2eL24QpgYOhqgsi5_Vj6kqgluCCvfvnNgUeyLv53wu-v0y5Scc5IZB8cYUm85C_BzqkNvWF9dHXvPKK1V6G4VxO0HmxhEcosleiteOXN3p_PhHEMDIAGNxAJIxRw4SkAxGLYJPzVtdG7-ZHpSDtHEJNMtldTev7i7tb6qDcQXU3TpM2cw7-gvT-gfJBwqij2t7hO9SCoicIVlIE4QzcfNOJBcYtFnLjUbr0"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">14k Yellow Gold Tanzanite &amp; Baguette Cut Diamond Ring</h3>
+<div class="flex items-center justify-center space-x-2">
+<span class="text-slate-400 line-through text-xs">$14,500.00</span>
+<span class="text-red-700 dark:text-red-400 text-sm font-medium">$13,050.00</span>
+</div>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<img alt="Luxury Watch" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6U2mhOYO3Th42IRlLJB8MdVo2Yz_ld1dCjl8ncVTZGfvleHqOWfpnM7FqSazGZDiMUW7mHPxNoREUsPL619LWQSQ4mTXiE1gt_TgmVpSu3tLagv1ZacFTrGrtIsS9NnqW7Ny95eTDgbL5Bbc0O0ZZQpJL6C-sLmGai1EkQ3Dd_POi8vwNiVLpaKttcGrpDQZuNEEyRpE14q8YXXrYF3f4d8lr3FXEiaZIcYu21sX1b3ir-7Vz2cCrTvWvBMjFeCVSWnVG4bDkVhU"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">Maurice Lacroix AIKON Automatic Skeleton 45mm</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">$12,600.00</p>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<img alt="Diamond Earrings" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdfMS7s4QXx1VDP3nXP7q1sWpwMJvFZFAyWDcc_3x-loKEhJi65IWtg4Tm2e887h3t6Zbo2x434ZnHTjjTcn3_2b5QPKw6fdmOLGbwE01pG-lG-fSVxFuhRAdNZjQvzRWJe8GoLROmvuj13BP5NaWigeMvEMy9Er-KaDAd83kdd-MWs_ewRxZG-tmSjoI9tgUnKxcOS8dJBuMMVWy57E_8PYDKHt9gHS-36XZJtJBgaeMtS0NIA1IqKqCskFFc_5ql-3kELc2d2cY"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">Solitaire Diamond Stud Earrings</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">$10,000.00</p>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<img alt="Pink Diamond Ring" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXvVZFgcwXlr_Uw59OJue9F1Ygh6rxDkwcDEOWF2KmEa1FB4h3Yf_ELkcsxid7E8AheNO5auaN8qCrrVQtPXBi13N4PfS0xkgaSn0od0tkzjNyerVSttrULIKt-NbhT_a7qyQdA3kUbxV1Vl8uL5EONpSxgDHorUVH6sflpY6zRSsAEEtxmHDflpfFWU9pVIXjTko-GQHCHtezSm26mu9h7JItz5yNPPd9g9EMnLtL_PLvDrVn4LlMEeUwEK5b4LRv4amls_uxV40"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">Pink &amp; White Diamond Engagement Ring</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">$9,500.00</p>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<img alt="Diamond Ring" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzW6J5lzA0fS6qnVxcwBtzKBoAN_K2xiggkJ5ev3HOmXkjM3zScmGXxV1dxhZJgJk3aZqDiQdKzcYjJdx2UiU8t0aMjry-PP5en8nSdbinYskTFZbzO--AYXKZSskbHWyIws4IKedksCyO2Xns_xCSvJN6910nKctQHsvJzraODeOmdgGOKAkj6ylDLn6FKvxHQ0kQuYRoPzLvE_GwV4irSjuzW0DZNTPVZqwJaor1-qpP1HcfyOHj2pIea0zTkmr8PQUCss9Wtug"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">Diamond Dress Ring</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">$11,000.00</p>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden aspect-square bg-slate-50 dark:bg-slate-900 mb-6 border border-transparent group-hover:border-primary/20 transition-all duration-500">
+<img alt="Amethyst Ring" class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZrTrtKoo3Up4NVyb3PMPiJzEaMadE2mFbHo2fxzUtgGCSgZBMCKB6QaXVkyrC8O_E71VBR-tQCaJanZKrs7tOtDG20rFG7b3lkD_831y2-PtvqAGjkctWCDxz0fTnHTf0BSHexLUHM4geF2s8Xt2MRAZXXRgUHW4kBhg0UdbSzAIC588yXOfcbjeYqw8YXZL61BOoahTssqgLmn-tF8NplvhmZ7zwF4tHty4M67nYd3X5yZCOVcnuUCO9z82U-rQx1WpRkhF-_j8"/>
+</div>
+<div class="text-center">
+<h3 class="text-sm font-medium text-slate-800 dark:text-slate-200 mb-2">Amethyst &amp; Diamond Halo Dress Ring</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">$9,625.00</p>
+</div>
+</div>
+</div>
+<div class="mt-20 flex justify-center">
+<button class="bg-slate-800 dark:bg-slate-700 text-white px-10 py-4 text-[11px] uppercase tracking-widest hover:bg-primary transition-colors duration-300">
+                Load More
+            </button>
+</div>
+</main>
+<footer class="bg-[#fafaf9] dark:bg-slate-900 pt-20 pb-10 mt-20 border-t border-slate-200 dark:border-slate-800">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
+<div class="space-y-6">
+<div class="flex flex-col mb-8">
+<div class="text-2xl font-display font-bold tracking-tighter uppercase dark:text-white">MarkBridge</div>
+<div class="text-[8px] tracking-[0.3em] uppercase -mt-1 dark:text-slate-400">Jewellers</div>
+</div>
+<div class="text-xs leading-relaxed text-slate-600 dark:text-slate-400 space-y-2">
+<p><strong class="text-slate-900 dark:text-white">Address :</strong> Shop 1, 15 Bungan Street, Mona Vale, NSW 2103</p>
+<p><strong class="text-slate-900 dark:text-white">Phone :</strong> (02) 9997 6043</p>
+<p><strong class="text-slate-900 dark:text-white">Mobile :</strong> 0452 576 043</p>
+<p><strong class="text-slate-900 dark:text-white">Email :</strong> info@mbjewellery.com</p>
+</div>
+</div>
+<div>
+<h4 class="text-[10px] tracking-[0.2em] uppercase font-bold mb-8 text-slate-400">Customer Service</h4>
+<ul class="text-[11px] space-y-4 text-slate-600 dark:text-slate-400 uppercase tracking-wider">
+<li><a class="hover:text-primary transition-colors" href="#">Frequently Asked Questions</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms &amp; Conditions</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Refund Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">MarkBridge VIP Membership Terms</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[10px] tracking-[0.2em] uppercase font-bold mb-8 text-slate-400">Newsletter</h4>
+<p class="text-xs text-slate-600 dark:text-slate-400 mb-6 italic">Join our VIP mailing list for latest news and special offers.</p>
+<div class="flex">
+<input class="flex-1 bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-xs px-4 py-3 focus:ring-primary focus:border-primary" placeholder="Email address" type="email"/>
+<button class="bg-primary/80 dark:bg-primary text-white text-[10px] uppercase tracking-widest px-6 hover:bg-primary transition-colors">Subscribe</button>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+<p class="text-[10px] text-slate-400 uppercase tracking-widest">© 2024 MarkBridge Jewellers. All Rights Reserved.</p>
+<div class="flex space-x-6 grayscale opacity-60">
+<img alt="PayPal" class="h-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU_1k7-sSYBDvFNuzB_jjNf_RcT09QuhlqlOLCvamPBJVwLqrAtJIl_6pd01mag-MFLGn1G_6ChtvkGn79LMzWjZkzeDvGaA5Rwut7acN1NmKDLwuab8X13fi4GwrTMJwJ3Ercv35D_atNhZiNiVsg-9S3olcEniIR5cWNZ4d9WVlVJNEYd93tRDA6fhoygozeHY276Jsz8aP23tNtGAjqcZFBGrAHw__dp__FqQRXSXpI5K1tjKbroJgcmCQz-FHOYxIDZk-ySo0"/>
+<img alt="Visa" class="h-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaAIjhQqCWCroBle08ku6xCH8naUw3UY-NRKKqbBYMdiCbRET9pMsBL_qtfJ-Yc_HpyIQeP5u0M6YOZ-esnRqw8LbIqc9Zt23v9hKKFa4sOtyyP_vsQzKdBvlVO1pJJklGQlD8SbLy3lvrO11fO1MtVKFzEXnn3gfZoNcGexPXuO83PP7vdVfq59EbmX3bCQ5fG9VG7ROQMi9n7_Mz4wek-zHWcrBZonWl7VWOh_iieGHVRTwR7jKjjFZEjvtdcxCfciXWHG-tTxw"/>
+<img alt="Mastercard" class="h-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2CgOfm5fRrjgpdYtwMNeso7CNvIN0sKbqUTyK1g2KzsVNFNlyrde1JA39XIb0OoUqjJjzxPKh6h74P7AX5Ieqj_9nd0l-x9zyxBXVehT4fYtngJHWQZC9wrgApoTzIBjZfShXAEUhIsE2Zt2KEDaGxp8-o1Nh1iE80KAjJXz6v-O-bUJGmpnLSIZwWRSk2lHude4y9GJqCf5sTBYv_dldArHv56u6qpteLKDEAnlaCvRH5JstazzKMa3g50cP9Ni5trRgFuZHktE"/>
+</div>
+</div>
+</div>
+</footer>
+<button class="fixed bottom-8 right-8 z-50 group" onclick="toggleAIPanel()">
+<div class="relative w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-2xl glow-pulse transition-transform active:scale-95">
+<span class="material-icons-outlined text-3xl">smart_toy</span>
+</div>
+</button>
+<div class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 opacity-0 pointer-events-none transition-opacity duration-300" id="aiPanelOverlay" onclick="toggleAIPanel()"></div>
+<aside class="fixed top-0 right-0 h-full w-full max-w-md bg-white dark:bg-slate-900 shadow-2xl z-[60] translate-x-full ai-panel-transition flex flex-col" id="aiSidePanel">
+<div class="p-6 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
+<span class="material-icons-outlined text-primary">auto_awesome</span>
+</div>
+<div>
+<h2 class="text-sm font-semibold text-slate-800 dark:text-white">Curated Selection</h2>
+<p class="text-[10px] text-primary uppercase tracking-widest font-bold">Personalized AI Stylist</p>
+</div>
+</div>
+<button class="material-icons-outlined text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" onclick="toggleAIPanel()">close</button>
+</div>
+<div class="flex-1 overflow-y-auto p-6 space-y-6 bg-slate-50/50 dark:bg-slate-900/50">
+<div class="flex items-start space-x-3">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white shrink-0">
+<span class="material-icons-outlined text-sm">smart_toy</span>
+</div>
+<div class="bg-white dark:bg-slate-800 p-4 rounded-2xl rounded-tl-none border border-slate-100 dark:border-slate-700 shadow-sm">
+<p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+                        Welcome to MarkBridge. I've analyzed your interest in luxury rings. Based on your browsing, I've curated a few exclusive pieces you might adore.
+                    </p>
+</div>
+</div>
+<div class="pt-4">
+<div class="flex items-center space-x-2 mb-4">
+<div class="h-px flex-1 bg-slate-200 dark:bg-slate-800"></div>
+<span class="text-[9px] uppercase tracking-widest font-bold text-slate-400">AI Recommendations</span>
+<div class="h-px flex-1 bg-slate-200 dark:bg-slate-800"></div>
+</div>
+<div class="space-y-4">
+<div class="group bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 p-3 rounded-xl flex items-center space-x-4 hover:border-primary transition-all cursor-pointer">
+<div class="w-20 h-20 bg-slate-50 dark:bg-slate-900 rounded-lg overflow-hidden shrink-0">
+<img alt="Rec 1" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSNk9qoW5Q3aJdFaBXCww-meuS3rVbhwbd1egwISA8Yg5mtApWUqCVmVohiXejBBxmD-EhlCRLAA-zhkAbHhSJPoUQQXIeum2EjFBGYdgLzQF6aNtN3_UVSs6xE0qjMxnjnpsCJZrePgVA38Cc3uKXEEVZphiNNMK56FgKguy4K5JdTxEWIxzCuwuOXSLGV-Ywc74hk48P18egWiMaMSI_S9RSPS64BZOSxGWJdAzXdHuQJz6UmPk7Pl-edofucGVy68U44t0exMY"/>
+</div>
+<div class="flex-1">
+<h4 class="text-xs font-semibold text-slate-800 dark:text-slate-200 mb-1 leading-snug">Yellow Gold Tanzanite &amp; Diamond Ring</h4>
+<p class="text-xs text-primary font-bold">$13,050.00</p>
+<button class="mt-2 text-[10px] uppercase font-bold text-slate-400 group-hover:text-primary flex items-center">
+                                View Details <span class="material-icons-outlined text-xs ml-1">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 p-3 rounded-xl flex items-center space-x-4 hover:border-primary transition-all cursor-pointer">
+<div class="w-20 h-20 bg-slate-50 dark:bg-slate-900 rounded-lg overflow-hidden shrink-0">
+<img alt="Rec 2" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv85tBpQL1zV_x0AeFLjPcC5wg2BQo9oQTHmlSuaLv5-R2p2IsMqeUOE9iqjqZbRMRxaYZ40Ykn_J-Z42vDjgNIZNIFOcrDQaxsoU82pN3UdV_sD5WUjXkiPvIOg3i2z7OQSOsjcQ57TIKsX0hiXt-d5SBKwg3q1J3hV7TsLWn6g660EpFmzYIkKsmXZMTpFSQSj-IK7PLwrCyoEUJ8kqm6zqA_oxDlbmnDIXhq9JHvMHwl6qCxqYWGeXrmVNFwiax4kSnmNOOp2s"/>
+</div>
+<div class="flex-1">
+<h4 class="text-xs font-semibold text-slate-800 dark:text-slate-200 mb-1 leading-snug">White Gold Natural Ruby &amp; Diamond Ring</h4>
+<p class="text-xs text-primary font-bold">$13,250.00</p>
+<button class="mt-2 text-[10px] uppercase font-bold text-slate-400 group-hover:text-primary flex items-center">
+                                View Details <span class="material-icons-outlined text-xs ml-1">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="p-6 border-t border-slate-100 dark:border-slate-800">
+<div class="relative">
+<input class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-full py-3 pl-5 pr-12 text-sm focus:ring-2 focus:ring-primary/20 text-slate-700 dark:text-slate-200" placeholder="Ask about sizing or materials..." type="text"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center">
+<span class="material-icons-outlined text-sm">send</span>
+</button>
+</div>
+<p class="text-[9px] text-center text-slate-400 mt-4 uppercase tracking-[0.15em]">Private &amp; Secured AI Concierge</p>
+</div>
+</aside>
+<script>
+        function toggleAIPanel() {
+            const panel = document.getElementById('aiSidePanel');
+            const overlay = document.getElementById('aiPanelOverlay');
+            const isOpen = !panel.classList.contains('translate-x-full');
+            if (isOpen) {
+                panel.classList.add('translate-x-full');
+                overlay.classList.add('opacity-0', 'pointer-events-none');
+            } else {
+                panel.classList.remove('translate-x-full');
+                overlay.classList.remove('opacity-0', 'pointer-events-none');
+            }
+        }
+    </script>
+
+</body></html>

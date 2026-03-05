@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Luxury Jewelry Store | Fine Art &amp; High-End Design</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#b4975a", // Elegant gold tone
+                        "background-light": "#ffffff",
+                        "background-dark": "#0f0f0f",
+                        "accent-purple": "#6d28d9",
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        sans: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0px", // Sharp, high-fashion edges
+                        'lg': "8px",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        .glow-breath {
+            animation: breathe 3s ease-in-out infinite;
+        }
+        @keyframes breathe {
+            0%, 100% { box-shadow: 0 0 5px rgba(109, 40, 217, 0.4); transform: scale(1); }
+            50% { box-shadow: 0 0 20px rgba(109, 40, 217, 0.8); transform: scale(1.05); }
+        }
+        .luxury-gradient {
+            background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300">
+<div class="bg-accent-purple text-white text-center py-2 text-xs tracking-[0.2em] uppercase font-medium">
+        Testing for Frontend
+    </div>
+<nav class="sticky top-0 z-40 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center space-x-8">
+<button class="flex items-center space-x-2 group">
+<span class="material-icons-outlined text-xl">menu</span>
+<span class="text-xs uppercase tracking-widest hidden md:inline">Menu</span>
+</button>
+<span class="material-icons-outlined cursor-pointer hover:text-primary transition-colors">search</span>
+</div>
+<div class="flex flex-col items-center">
+<h1 class="font-display text-2xl tracking-[0.4em] uppercase font-bold">LUXE</h1>
+<span class="text-[10px] tracking-[0.5em] -mt-1 uppercase opacity-60">Fine Jewelry</span>
+</div>
+<div class="flex items-center space-x-8">
+<a class="text-[10px] uppercase tracking-widest font-medium border-b border-black dark:border-white pb-1 hidden lg:block" href="#">Make Appointment</a>
+<span class="material-icons-outlined cursor-pointer hover:text-primary transition-colors">account_circle</span>
+<span class="material-icons-outlined cursor-pointer hover:text-primary transition-colors">shopping_bag</span>
+</div>
+</div>
+</nav>
+<section class="relative h-[85vh] overflow-hidden flex items-center justify-center">
+<img alt="High-end editorial jewelry shot" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMVixJxPHpjdMUpHSsO-tGSc2zoW2H1p1Zel3zg7XBqXW9dHmKBF3Hxb73JmWPGz5RVNiN6XKiSeTyC67swM3ly2iB5qYq2TFG_DDGDvD34H40bE-H4lOfdbhak44aUImL7uQFFE253IsBhsANLtxWf-hfC0rEFRFCHLFEIEt8UvdnzukRJfWe2aULZUES5UVaib2V3tuLE8nR2A8dznrp2hJU3W3MhVmSmSMWoyAEH1hyJOC_bx2vxiWxqNSOVIBl2IA3B9jXvJM"/>
+<div class="absolute inset-0 bg-black/20"></div>
+<div class="relative z-10 text-center text-white">
+<p class="uppercase tracking-[0.5em] text-xs mb-4">Cubism Diamond Collection</p>
+<h2 class="font-display text-5xl md:text-7xl mb-8">The Iconic</h2>
+<button class="px-10 py-3 bg-primary text-white text-xs uppercase tracking-[0.3em] hover:bg-opacity-90 transition-all">Discover</button>
+</div>
+</section>
+<section class="max-w-7xl mx-auto px-6 py-24">
+<div class="text-center mb-16">
+<h3 class="text-xs uppercase tracking-[0.5em] mb-4 opacity-60">Collections</h3>
+<div class="h-px w-20 bg-primary mx-auto"></div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="group cursor-pointer">
+<div class="overflow-hidden aspect-square relative mb-4">
+<img alt="Engagement Rings" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDrWKZSUQy2cxBlNSX4gbZuMATumadNgvES3mRF8DhYDgDziacsGF4cIzJAYk2wgy7H1EG81FsND84mtXYNGFhfcEc50T6bSflkBPDEYThm_SMTP3eTs-akQsr-hBLvJuzqpiKBez-l9guOtn9Db_EjZV8ex0s9cjK7xgOaqBRuulte3mhDVI4LOq1HU1dCjNdws71GZYc9aMTBtudVvXi0k9uzZO7Wav0p2AQO3vMIop3pSMEVDAAVULfTwVrQAZPSHNFCRqB-CU"/>
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<p class="text-center text-xs uppercase tracking-widest font-medium">Engagement Rings</p>
+</div>
+<div class="group cursor-pointer">
+<div class="overflow-hidden aspect-square relative mb-4">
+<img alt="Wedding Bands" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqztWhNItRHCxW7LOF39AKAxpUtHk23yxLbODP3PTyhzpFSzgQPgZ73kEcr1-pkAldCCadTm0-eBuq4Ou__CWoc2ZWwjaaRRtP-qfkVd02Eo7pArJ-x0byBgQWvR0KhlixWq9xPLJH8u_5Cy6X7Bw6nxXAw6PJiXS0LDRtI-bwDhkHTbMyiUzknteZm-hA_aH8_aTBrkqYixw-8rgYbFmUkYhxmLNp9OMkUmddP3Vtv2RRsZQiYGZsTVtRLH9UsQaJ6-paS8DfBDg"/>
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<p class="text-center text-xs uppercase tracking-widest font-medium">Wedding Bands</p>
+</div>
+<div class="group cursor-pointer">
+<div class="overflow-hidden aspect-square relative mb-4">
+<img alt="High Jewels" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6R8tMml9ZwTcF1QiwJnp4wlTJcez-POjWBXp55hd7sXBwDdFgf6sSDxgC8FH220BancS7gnuK8lmBnn2s0dXgKa0YBLnV54rcaEJ2KpW6G10i31OCFdiw4sEjRJiIQMQr1fIX_WpZoRMNvROsJ2AsXyRHiMLcqvGhrKLzo2_4jDzZO1a9-GiRr9v9V9Sh192CF77TqA89ZKh9KdFfY3uSLYSBL6zpbNLHxoJvnc0QVeCD-GwmiII2HQV8NVc53ffaKYAynCq_Xwo"/>
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<p class="text-center text-xs uppercase tracking-widest font-medium">High Jewels</p>
+</div>
+<div class="group cursor-pointer">
+<div class="overflow-hidden aspect-square relative mb-4">
+<img alt="Fine Watches" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmFKlJtVU1JxsrzGHC-myGQkaAZhVFRQeolNrHwdyGhIn_E_FnpEfDcciPco1AxZ_l2pOFbSSKT8NdnC8-wHXn5AneFXuXvkQRPcZUskmcZiJ95hsogFhSZ9IWgS2W9uT68UK5tYMM9Hdk2n4Wsxsu-FE02hteykf3WNTTLzLHK3G5p1Yrjq3O7QqKpkkCpq53YXWU_XEMjGjoaAVkNEgVlw3NBSpvx1_1T9uVo3Vrnt1xYMfmZilIhgdr-wtDxzEByBYx3yBoBy4"/>
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<p class="text-center text-xs uppercase tracking-widest font-medium">Fine Watches</p>
+</div>
+</div>
+</section>
+<section class="relative h-[70vh] flex items-center mb-24 overflow-hidden">
+<img alt="Gold Jewelry Detail" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5mqavwltHVXUtnvWU_lI3NZlryyCpFyDjr7sxjFQcBslZEbiDOTIcRAwI89ISkeYSlNRD1UfiP8jijHdLXuJ4loBoJH-sr25gc2GLA6uRmLmbQkv09nbD_3iuHlfJTxCpm13mdUThKnXdvF79TjNAdGz-nK-IQV--WQ1aWsd8t06oLPYD0ncgDEFlW6tLBuQw3ErOfHvK45w_jY6xd8GnvRk0evWwPZc5QCRAbBmNVwAH6ffQE318OJvh3_jEw45xC-G9vDIbxho"/>
+<div class="absolute inset-0 bg-black/30"></div>
+<div class="max-w-7xl mx-auto px-6 w-full relative z-10 flex justify-end">
+<div class="max-w-md text-white text-right">
+<h3 class="font-display text-4xl mb-6">Gold Statement Pieces</h3>
+<p class="text-sm tracking-wide mb-8 opacity-80 leading-relaxed">Discover the sculptural brilliance of our new gold collection, handcrafted in our Sydney atelier.</p>
+<button class="border border-white px-8 py-3 text-[10px] uppercase tracking-widest hover:bg-white hover:text-black transition-all">Explore Collection</button>
+</div>
+</div>
+</section>
+<footer class="bg-gray-50 dark:bg-[#080808] pt-20 pb-10 px-6 border-t border-gray-100 dark:border-gray-900">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col items-center mb-16">
+<h4 class="text-xs uppercase tracking-[0.5em] mb-4">Join Us</h4>
+<p class="text-xs opacity-60 mb-8">Hear about our latest releases and news</p>
+<div class="flex w-full max-w-md border-b border-gray-400 dark:border-gray-600 pb-2">
+<input class="bg-transparent border-none outline-none w-full text-sm placeholder:text-gray-400" placeholder="Email Address" type="email"/>
+<button class="text-[10px] uppercase tracking-widest font-bold">Join</button>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 text-[10px] uppercase tracking-[0.2em] font-medium text-center md:text-left mb-20">
+<a class="hover:text-primary transition-colors" href="#">Engagement Rings</a>
+<a class="hover:text-primary transition-colors" href="#">Jewellery</a>
+<a class="hover:text-primary transition-colors" href="#">Watches</a>
+<a class="hover:text-primary transition-colors" href="#">Services</a>
+<a class="hover:text-primary transition-colors" href="#">Contact Us</a>
+<a class="hover:text-primary transition-colors" href="#">Make Appointment</a>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center text-[9px] uppercase tracking-widest opacity-50 space-y-4 md:space-y-0">
+<div class="flex space-x-6">
+<a href="#">Privacy Policy</a>
+<a href="#">Refund Policy</a>
+<a href="#">Shipping Policy</a>
+<a href="#">Terms of Service</a>
+</div>
+<div>© 2024 LUXE FINE JEWELRY. ALL RIGHTS RESERVED.</div>
+</div>
+</div>
+</footer>
+<button class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center shadow-xl glow-breath hover:scale-110 transition-transform group" onclick="toggleAIPanel()">
+<span class="material-icons-outlined text-accent-purple text-3xl group-hover:rotate-12 transition-transform">smart_toy</span>
+</button>
+<div class="fixed inset-0 bg-black/40 backdrop-blur-sm z-[60] opacity-0 pointer-events-none transition-opacity duration-300" id="ai-overlay" onclick="toggleAIPanel()"></div>
+<aside class="fixed top-0 right-0 h-full w-full md:w-[450px] bg-white dark:bg-gray-900 z-[70] translate-x-full transition-transform duration-500 ease-in-out shadow-2xl flex flex-col" id="ai-panel">
+<div class="p-6 border-b border-gray-100 dark:border-gray-800 flex items-center justify-between">
+<div class="flex items-center space-x-3">
+<div class="w-8 h-8 rounded-full bg-accent-purple/10 flex items-center justify-center">
+<span class="material-icons-outlined text-accent-purple text-sm">smart_toy</span>
+</div>
+<div>
+<h5 class="text-sm font-semibold">Luxe Concierge</h5>
+<p class="text-[10px] uppercase tracking-widest opacity-50">Online Assistant</p>
+</div>
+</div>
+<button class="material-icons-outlined text-gray-400 hover:text-black dark:hover:text-white transition-colors" onclick="toggleAIPanel()">close</button>
+</div>
+<div class="flex-1 overflow-y-auto p-6 space-y-6">
+<div class="flex items-start space-x-3">
+<div class="w-6 h-6 rounded-full bg-accent-purple flex-shrink-0 flex items-center justify-center">
+<span class="material-icons-outlined text-white text-[14px]">smart_toy</span>
+</div>
+<div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-tr-xl rounded-br-xl rounded-bl-xl text-sm leading-relaxed max-w-[85%]">
+                    Good evening. I'm your personal LUXE assistant. Based on your interest in our Cubism collection, I've curated a few selections you might appreciate.
+                </div>
+</div>
+<div class="pl-9 space-y-4">
+<p class="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-60">Personal Recommendations</p>
+<div class="space-y-3">
+<div class="flex bg-gray-50 dark:bg-gray-800 p-3 rounded-lg group cursor-pointer border border-transparent hover:border-primary transition-all">
+<img alt="Rec 1" class="w-20 h-20 object-cover rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEhZUgrj4E9oIdbuczhpT1S45h55CjV-M_uJ_iVJO0YTEnKSvYjky3YtTRMFAwLGN5hlD8g2SQ19n_sMxmaboCuh3tk4cmbl28LhIsN6dPEtcGQZGvoaKCdnCcHy2rfauiI0-kocdZny1j0jbtPeL3qpnM08CU2AKTGs2Yt_MKyNoYU6WWGEdiP26IvLMQsY-XbxDIMO5u9arNs-mS-OS9al2p2ZFauXNGt6APUdBCmAPYxVMtbJd36Df4DUdqXS3chOkj7NHZ38U"/>
+<div class="ml-4 flex-1">
+<h6 class="text-xs font-medium uppercase tracking-wider">Cubism Solitaire</h6>
+<p class="text-[11px] opacity-60 mt-1">18ct Gold, 1.5ct Emerald Cut</p>
+<p class="text-xs font-semibold mt-2">$12,400</p>
+</div>
+<span class="material-icons-outlined text-xs opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="flex bg-gray-50 dark:bg-gray-800 p-3 rounded-lg group cursor-pointer border border-transparent hover:border-primary transition-all">
+<img alt="Rec 2" class="w-20 h-20 object-cover rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6b0pPIeRmv9FPUmUt93yrFW8JFxQzDtS76gajS9qYVPavoZhojXuDRTmYOFthwSiBDhsI8HW_ZVH2N1O2rCteGpoYKpQQyoh2VfyslEGd9MzVH0PlH5TWKX2dJDqY04i1-6KMC_hWfKR-f7TwteBhRaIK8fPgqsPcrIKMfDcmxSsHl13TtU5UQHi5qTbh8Le_ZndUvNzr55_rWjUT1dJxQUIPn73o1lIoqN3Dno2ZPHHyDPfuI92c3X6yeJPmJ8wXXARjo2Y8vJ8"/>
+<div class="ml-4 flex-1">
+<h6 class="text-xs font-medium uppercase tracking-wider">Starlight Pendant</h6>
+<p class="text-[11px] opacity-60 mt-1">White Gold, Pavé Diamonds</p>
+<p class="text-xs font-semibold mt-2">$4,850</p>
+</div>
+<span class="material-icons-outlined text-xs opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+</div>
+</div>
+<div class="flex items-start justify-end space-x-3">
+<div class="bg-primary text-white p-4 rounded-tl-xl rounded-bl-xl rounded-br-xl text-sm leading-relaxed max-w-[85%]">
+                    I love the Emerald cut. Can you show me more rings like that?
+                </div>
+</div>
+</div>
+<div class="p-6 border-t border-gray-100 dark:border-gray-800">
+<div class="relative">
+<input class="w-full bg-gray-50 dark:bg-gray-800 border-none py-3 pl-4 pr-12 text-sm rounded-full focus:ring-1 focus:ring-accent-purple transition-all" placeholder="Type your message..." type="text"/>
+<button class="absolute right-2 top-1.5 w-8 h-8 bg-accent-purple text-white rounded-full flex items-center justify-center hover:bg-accent-purple/90 transition-colors">
+<span class="material-icons-outlined text-sm">send</span>
+</button>
+</div>
+<div class="flex justify-center mt-4 space-x-4">
+<button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity">Live Stylist</button>
+<button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity">Track Order</button>
+</div>
+</div>
+</aside>
+<script>
+        function toggleAIPanel() {
+            const panel = document.getElementById('ai-panel');
+            const overlay = document.getElementById('ai-overlay');
+            const isClosed = panel.classList.contains('translate-x-full');
+            if (isClosed) {
+                panel.classList.remove('translate-x-full');
+                overlay.classList.remove('opacity-0', 'pointer-events-none');
+            } else {
+                panel.classList.add('translate-x-full');
+                overlay.classList.add('opacity-0', 'pointer-events-none');
+            }
+        }
+    </script>
+
+</body></html>
