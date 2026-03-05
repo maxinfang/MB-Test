@@ -1,0 +1,11 @@
+{
+    "projectId": "3312579727973105822",
+    "projectName": "Test Project",
+    "screens": [
+        {
+            "id": "334ac8be0c0b424bb7172a65affcbac9",
+            "title": "Markbridge Jewellers Luxury Homepage",
+            "file": "public/index.html"
+        }
+    ]
+}

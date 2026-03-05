@@ -1,0 +1,253 @@
+<html class="dark"><head>
+<meta charset="utf-8"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#c9a96e",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#1e1a14",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "serif": ["Georgia", "serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="border-b border-primary/20 px-6 lg:px-20 py-4 sticky top-0 bg-background-dark/95 backdrop-blur-md z-50">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">diamond</span>
+<h1 class="text-xl font-bold tracking-tight uppercase">Markbridge <span class="text-primary font-light">Jewellers</span></h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Collections</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Bespoke</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Heritage</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Locations</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex items-center bg-primary/10 rounded-full px-4 py-1.5 border border-primary/20">
+<span class="material-symbols-outlined text-primary text-xl">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-40 placeholder:text-slate-500" placeholder="Search collection..." type="text"/>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-slate-100 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">person</span>
+</button>
+<button class="relative text-slate-100 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">shopping_bag</span>
+<span class="absolute -top-1 -right-1 bg-primary text-[10px] text-background-dark font-bold rounded-full w-4 h-4 flex items-center justify-center">2</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative h-[85vh] w-full flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-background-dark via-background-dark/60 to-transparent z-10"></div>
+<img alt="Luxury Diamond Ring" class="w-full h-full object-cover object-center" data-alt="Exquisite diamond ring on a dark reflective surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_zrCHRh4yNXynPoIwWfD9Zn5aGEK7HhCOWAYUDKmpCoete3GmmABQK0V8eimRITzRWUVgqF6DwcnnvUVbGWgLqokPaJE8GlWFCbqsN5QYsMEKwPR2FNOfFFA7Z7cKPg1YJ1pgiexYGUV03On7Cj8iMp1z8MNK4R7NuaaKRKJ5f9RG8twdRmGDJqfmVcznLH604JIzNu3Kw_mF-o_8G1LxLWkq4KykSW-H1PhRT-D5N7e8XZ0rqx8WjchpCqzNQ8UGcvyelne1wYQ"/>
+</div>
+<div class="relative z-20 max-w-7xl mx-auto px-6 lg:px-20 w-full">
+<div class="max-w-2xl">
+<h2 class="text-primary uppercase tracking-[0.3em] text-sm font-semibold mb-4">Artistry in Every Detail</h2>
+<h1 class="text-5xl lg:text-7xl font-serif leading-tight mb-6">Timeless Elegance, <br/><span class="italic text-primary">Crafted for You</span></h1>
+<p class="text-slate-300 text-lg lg:text-xl mb-10 leading-relaxed font-light">
+                    Discover our exclusive collection of bespoke jewelry, where every piece tells a unique story of heritage, passion, and unparalleled luxury.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-background-dark px-10 py-4 rounded-lg font-bold text-sm tracking-widest uppercase hover:bg-primary/90 transition-all transform hover:-translate-y-1">
+                        Explore Collection
+                    </button>
+<button class="border border-primary/50 text-primary px-10 py-4 rounded-lg font-bold text-sm tracking-widest uppercase hover:bg-primary/10 transition-all">
+                        Book Consultation
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Collections -->
+<section class="py-24 px-6 lg:px-20 max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<h2 class="text-3xl lg:text-4xl font-serif mb-4">Curated Collections</h2>
+<div class="h-1 w-20 bg-primary"></div>
+</div>
+<p class="text-slate-400 max-w-md font-light">Hand-selected pieces designed to celebrate life's most precious moments with eternal brilliance.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Rings -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl mb-6">
+<img alt="Rings Collection" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Elegant gold and diamond engagement rings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVxxciR8dpPVg8vMiesMbs5CyC2G9IJxlUZb25QFwYwGsLGGjXDy_ph0py2DS0Ucl1e78aNjT8GGh08BKefZLGBWTzLwJAyNvzVSIWBbQuN8--YCA8ANwOIIQJBz7s9UawdrSWQZhgFzcsUGrmwfpmL10TKwQoyh6ntpciZpbOXTkYytGsm0pmqJloPa3ONKEIoxQ0b1byAboh5iRwQ26UU3YkFg-nUboaSyIq0CMKtBg9Gip8ghSp-0Si5ieemnuKpCmo6eGEl0c"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<div class="text-center">
+<h3 class="text-xl font-serif mb-2 group-hover:text-primary transition-colors">Eternal Rings</h3>
+<p class="text-slate-400 text-sm uppercase tracking-widest">Starting from $1,200</p>
+</div>
+</div>
+<!-- Necklaces -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl mb-6">
+<img alt="Necklaces Collection" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Luxury diamond necklace on velvet display" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVAENI_4ANVMl5vwObJBAqaxp7WPJ5-SUNS73PZpIeOOB8wobkD52VK6mQvxvo470H5ql844HcBiQyZYDtmnoGZd_b3pqwj3h5mdvOx1lQd3TCAVbaN42ROIpPiDrZOWMjpWI3_fbKHl1rVvEe4tQSLe5y3n8pEP_7LTtj2njs_ceUl3nskMtuIE7GMb2SfNZPrgyM6NfoD9mbonuT3lJSqogaGmz4nAorW8V_ZaHE5-8upIq7DK8Ws3DcN7nSk_m-Vnr9d_WccLc"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<div class="text-center">
+<h3 class="text-xl font-serif mb-2 group-hover:text-primary transition-colors">Signature Necklaces</h3>
+<p class="text-slate-400 text-sm uppercase tracking-widest">Starting from $850</p>
+</div>
+</div>
+<!-- Bracelets -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl mb-6">
+<img alt="Bracelets Collection" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Fine gold bracelet with delicate charms" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVc_tbJ1LIVgWeIz7Yconz1sEV0kq9z--c1OrYzuEsai50i1555ZxjBaxSi04MoiCRZIps17lz6H3glOZvw0JT4k7cqCgH77WuDy_nwvxPwkRtlgLfOxkpz94APkKhZ7148pgGsaQqydfnO6k00RhD_dyULbbcDhpDs3iNuisKEvp2kYHT4pE_XeFgVEmkSjRCUmJPJF9lmz6SFJnuhM76Y0GAfnafGJyE-lbao8WwsX6ZefGZhaLiqYnmtwXs-_uei96DWi08id4"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<div class="text-center">
+<h3 class="text-xl font-serif mb-2 group-hover:text-primary transition-colors">Artisan Bracelets</h3>
+<p class="text-slate-400 text-sm uppercase tracking-widest">Starting from $1,500</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section (Split Screen) -->
+<section class="bg-primary/5 py-0 overflow-hidden">
+<div class="flex flex-col lg:flex-row items-stretch">
+<div class="w-full lg:w-1/2 h-[500px] lg:h-auto">
+<img alt="Craftsmanship Heritage" class="w-full h-full object-cover" data-alt="Master jeweler working on a custom piece" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTGgeHl9P1E5pduL6hlCT746paUbTcBektfAyYwZOnduW-AFixfMJ1JOAEnElP6iEEGYSV_L0KFyAO9M1335KNGqdsXaeBAiI2ydfDBf88zqiNTj8bFEKGpB0n6hkO1uVb3NRzflCdLzZw5NQUtIjWOFH0NFoda7UtT9Ejqu8iQtmBfiOaJIxYw-KoHUNEv3drUGtjFL7o6MSboUasEtjhDTOUX79l6Vmxi6wqiGp7pPpDvw60jreEbUh0MrMnQwJQhIWjrHeM7t8"/>
+</div>
+<div class="w-full lg:w-1/2 flex items-center justify-center p-12 lg:p-24">
+<div class="max-w-md">
+<h2 class="text-primary uppercase tracking-[0.2em] text-xs font-bold mb-4">Our Heritage</h2>
+<h3 class="text-4xl font-serif mb-8 leading-tight">Master Craftsmanship Since 1924</h3>
+<p class="text-slate-300 leading-relaxed mb-6 font-light">
+                        For generations, Markbridge Jewellers has been synonymous with the finest craftsmanship and timeless design. Our master artisans bring passion to every cut, ensuring that every stone achieves its maximum brilliance.
+                    </p>
+<p class="text-slate-300 leading-relaxed mb-10 font-light">
+                        Every piece is hand-finished in our private atelier, maintaining a legacy of precision that has defined our brand for nearly a century.
+                    </p>
+<a class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase group" href="#">
+                        Read Our Story
+                        <span class="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_right_alt</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 px-6 lg:px-20 max-w-7xl mx-auto text-center">
+<h2 class="text-primary uppercase tracking-[0.2em] text-xs font-bold mb-12">Client Experiences</h2>
+<div class="relative overflow-hidden">
+<div class="flex flex-col items-center">
+<div class="flex gap-1 text-primary mb-8">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<blockquote class="text-2xl lg:text-3xl font-serif italic text-slate-100 max-w-3xl mb-8 leading-snug">
+                    "The bespoke process at Markbridge was truly exceptional. They took my vision and crafted an engagement ring that was more breathtaking than I ever imagined possible."
+                </blockquote>
+<cite class="not-italic">
+<span class="block text-primary font-bold uppercase tracking-widest text-sm">Alexander Sterling</span>
+<span class="block text-slate-500 text-xs mt-1">Private Collector</span>
+</cite>
+</div>
+<div class="flex justify-center gap-4 mt-12">
+<button class="w-2 h-2 rounded-full bg-primary"></button>
+<button class="w-2 h-2 rounded-full bg-slate-700 hover:bg-primary/50 transition-colors"></button>
+<button class="w-2 h-2 rounded-full bg-slate-700 hover:bg-primary/50 transition-colors"></button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-black border-t border-primary/20 pt-20 pb-10">
+<div class="max-w-7xl mx-auto px-6 lg:px-20">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">diamond</span>
+<h2 class="text-xl font-bold tracking-tight uppercase">Markbridge</h2>
+</div>
+<p class="text-slate-500 text-sm leading-relaxed">
+                        Dedicated to the pursuit of perfection. Crafting the world's finest jewelry for life's most significant milestones.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-400 hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-400 hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">camera</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-400 hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">mail</span>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-primary uppercase tracking-widest text-xs font-bold mb-8">Navigation</h3>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">All Collections</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Bespoke Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">The Heritage</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sustainability</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Journal</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-primary uppercase tracking-widest text-xs font-bold mb-8">Boutiques</h3>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li>
+<p class="text-slate-200">Flagship London</p>
+<p class="text-xs">Bond Street, Mayfair</p>
+</li>
+<li>
+<p class="text-slate-200">New York Atelier</p>
+<p class="text-xs">Fifth Avenue, Manhattan</p>
+</li>
+<li>
+<p class="text-slate-200">Paris Boutique</p>
+<p class="text-xs">Place Vendôme</p>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-primary uppercase tracking-widest text-xs font-bold mb-8">Newsletter</h3>
+<p class="text-slate-500 text-sm mb-6">Join our inner circle for exclusive previews and private event invitations.</p>
+<div class="flex">
+<input class="bg-slate-900/50 border-slate-800 border-r-0 rounded-l-lg focus:ring-primary focus:border-primary text-sm w-full" placeholder="Email Address" type="email"/>
+<button class="bg-primary text-background-dark px-4 rounded-r-lg hover:bg-primary/90 transition-colors">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-600 text-[10px] uppercase tracking-[0.2em]">
+<p>© 2024 Markbridge Jewellers. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+<a class="hover:text-primary" href="#">Cookie Settings</a>
+</div>
+</div>
+</div>
+</footer>
+
+```</body></html>

@@ -1,0 +1,9 @@
+{
+    "name": "mb-test",
+    "version": "1.0.0",
+    "description": "Markbridge Jewellers - Stitch-generated luxury jewelry store",
+    "scripts": {
+        "dev": "npx serve public -l 3000",
+        "start": "npx serve public"
+    }
+}
